@@ -1,0 +1,23 @@
+{
+    "name": "TopSecret",
+    "author": "CacheOut",
+    "version": "1.0",
+    "manifest_version": 3.0,
+    "permissions": ["permission 1", "permission 2"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon_comment": {
+            "16": "mainIcons/secret16.png",
+            "32": "mainIcons/secret32.png",
+            "64": "mainIcons/secret64.png",
+            "128": "mainIcons/secret128.png"
+        }
+    },
+    "icons": {
+        "16": "mainIcons/secret16.png",
+        "32": "mainIcons/secret32.png",
+        "64": "mainIcons/secret64.png",
+        "128": "mainIcons/secret128.png"
+    },
+    "host_permissions": ["https://*/*", "http://*/*"]
+}
